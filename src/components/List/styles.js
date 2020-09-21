@@ -4,7 +4,6 @@ export const Title = styled.h1`
   text-align: center;
   padding: 10px;
 `;
-
 export const Container = styled.section`
   max-width: 1060px;
   margin: 0 auto;
@@ -13,9 +12,9 @@ export const Container = styled.section`
   justify-content: space-between;
 
   div {
-    background: #F4F0F0;
+    background: #f4f0f0;
     /* border: 1px solid #221E1E; */
-    box-shadow: 1px 1px 7px 1px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     margin: 10px;
     display: flex;
@@ -24,8 +23,8 @@ export const Container = styled.section`
     padding: 10px;
 
     a {
-      text-decoration:none;
-      color: #221E1E;
+      text-decoration: none;
+      color: #221e1e;
       font-weight: 600;
     }
 
@@ -48,21 +47,20 @@ export const Pagination = styled.nav`
 `;
 
 export const Footer = styled.footer`
-  background: #221E1E;
-  
-  
+  background: #221e1e;
+
   div {
-  height: 35px;
-  max-width: 1060px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    height: 35px;
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     a {
       display: flex;
       align-items: center;
-      color: #F4F0F0;
+      color: #f4f0f0;
       text-decoration: none;
     }
   }

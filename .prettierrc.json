@@ -1,0 +1,5 @@
+{
+  "singleQuote": true,
+  "trsilingComma": "all",
+  "arrowParens":"avoid"
+ }

@@ -6,14 +6,16 @@ import { Container } from './styles';
 
 const NotFound = () => (
   <>
-    <Header/>
+    <Header />
     <Container>
       <h3>Ooooops...</h3>
       <h1>404</h1>
       <h3>Pagína não encontrada</h3>
       <div>
-      
-      <Link to="/"><AiFillHome />Voltar para Home</Link>
+        <Link to="/">
+          <AiFillHome />
+          Voltar para Home
+        </Link>
       </div>
     </Container>
   </>
